@@ -1,0 +1,39 @@
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\Student Management.csproj.AssemblyReference.cache
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\Student Management.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\Student Management.AssemblyInfoInputs.cache
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\Student Management.AssemblyInfo.cs
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\Student Management.csproj.CoreCompileInputs.cache
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\Student Management.MvcApplicationPartsAssemblyInfo.cache
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\Student Management.RazorAssemblyInfo.cache
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\Student Management.RazorAssemblyInfo.cs
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\appsettings.Development.json
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\appsettings.json
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\Student Management.staticwebassets.runtime.json
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\Student Management.exe
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\Student Management.deps.json
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\Student Management.runtimeconfig.json
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\Student Management.dll
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\Student Management.pdb
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\Dapper.dll
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\ASP.Net Projects\Student Management\Student Management\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\staticwebassets\msbuild.Student Management.Microsoft.AspNetCore.StaticWebAssets.props
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\staticwebassets\msbuild.build.Student Management.props
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Student Management.props
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Student Management.props
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\staticwebassets.pack.json
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\staticwebassets.build.json
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\staticwebassets.development.json
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\scopedcss\bundle\Student Management.styles.css
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\scopedcss\projectbundle\Student Management.bundle.scp.css
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\Student Management.csproj.CopyComplete
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\Student Management.dll
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\refint\Student Management.dll
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\Student Management.pdb
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\Student Management.genruntimeconfig.cache
+C:\ASP.Net Projects\Student Management\Student Management\obj\Debug\net6.0\ref\Student Management.dll

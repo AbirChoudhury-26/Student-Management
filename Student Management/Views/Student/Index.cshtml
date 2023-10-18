@@ -1,0 +1,127 @@
+﻿@model Student_Management.Models.StudentVM
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1> Student ADD/ Update</h1>
+ 
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form method="POST" asp-area="" asp-controller="Student" asp-action="AddUpdateStudent">
+                <input type="hidden" id="Id" name ="Id" />
+
+                <div class="row-mb-3">
+                    <div class="col-12"><label for="Name">Name </label></div>
+                    <div class="col-12"><input type="text" class="form-control" id="Name" placeholder="Name" /></div>
+                </div>
+
+
+                    <div class="row-mb-3">
+                        <div class="col-12"><label for="Email">Email </label></div>
+                        <div class="col-12"><input type="text" class="form-control" id="Email" placeholder="Email" /></div>
+                    </div>
+
+                <div class="row-mb-3">
+                    <div class="col-12"><label for="City">City </label></div>
+                    <div class="col-12"><input type="text" class="form-control" id="City" placeholder="City" /></div>
+                </div>
+
+               
+
+                <div class="row-mb-3">
+                    <div class="col-12"></div>
+                    <button type="submit" class="btn btn-success"> Submit</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            @{
+                if (TempData["SuccessMessage"]!=null)
+                {
+                                                    <h2 class="bg-success">@TempData["SuccessMessage"]</h2>
+                }
+                if (TempData["ErrorMessage"] != null)
+                {
+                                                    <h2 class="bg-danger">@TempData["ErrorMessage"]</h2>
+                }
+
+            }
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="container">
+    <table class="table table-bordered">
+        <tr>
+            <th> Student ID </th>
+            <th> Student Name </th>
+            <th> Email Address </th>
+            <th> City </th>
+            <th> Date </th>
+            <th> Action </th>
+         </tr>
+
+        @{
+            if(Model.StudentsList!=null && Model.StudentsList.Count>0)
+            {
+                foreach(var item in Model.StudentsList)
+                {
+                                                 <tr>
+                                                            <td> @item.Id</td>
+                                                            <td> @item.Name</td>
+                                                            <td> @item.Email</td>
+                                                            <td> @item.City</td>
+                                                            <td> @item.Creation_at.ToString("dd-MM-yyyy")</td>
+                                                            <td> Action </td>
+
+                                                            <td>
+                                                                <a onclick="updateStudent('@item.Id','@item.Name','@item.Email','@item.City')" style=" cursor:pointer;"> UPDATE</a> &nbsp;&nbsp;&nbsp;
+                                                                <a onclick="deleteStudent('@item.Id')" style=" cursor:pointer;">DELETE </a> 
+                                                                
+                                                            </td> 
+                                                        </tr>
+                }
+            }
+        }
+    </table>
+</div>
+
+
+<script type="text/javascript">
+     function deleteStudent(Id)
+     {
+         let response = confirm('Do you want to Delete??');
+
+         if (response) { 
+             $.ajax({
+                 type: "POST",
+                 url:"@Url.Action("DeleteStudent","Student")",
+                 data: {StudentId: StudentId},
+
+                 success: function (response) { 
+                     if (response.message == " Deleted Successfully") {
+                         window.location.reload();
+                     }
+                     else {
+                         alert(response.message)
+                     }
+                 }
+             })
+         }
+     }
+
+    function updateStudent(Id, Name, Email,City) {
+        $('Id').val(Id);
+        $('Name').val(Name);
+        $('Email').val(Email);
+        $('City').val(City);
+    }
+</script>
